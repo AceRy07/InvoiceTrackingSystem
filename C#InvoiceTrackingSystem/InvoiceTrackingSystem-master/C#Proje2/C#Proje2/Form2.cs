@@ -19,7 +19,7 @@ namespace C_Proje2
             InitializeComponent();
         }
 
-        // Veritabanı bağlantısı
+        // Veritabanı SQl bağlantısı
         private SqlConnection baglan = new SqlConnection("Data Source=DESKTOP-6J9R1GH\\SQLEXPRESS;Initial Catalog=faturaSistemi;Integrated Security=True");
 
         // ListView'de verileri gösterir.
